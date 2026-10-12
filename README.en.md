@@ -180,21 +180,19 @@ Before opening a PR, read [CONTRIBUTING.md](CONTRIBUTING.md) (in French; you can
 Code under the [AGPL-3.0](LICENSE). You may copy, modify and host it,
 as long as you publish the code of your version under the same licence, even if it is only served as a website.
 
-The names "vesky" and "skred" are not covered by the licence: the AGPL grants no rights to a name
-(section 7, e). This is an additional term that comes with this code.
-
 ### Hosting your own copy
 
 The official version is https://vesky.fr. If you put your own copy online:
 
-1. **Give it another name.** Neither "vesky" nor "skred" in the name, page titles, logo or address.
-   You may write "based on vesky" with a link to this repository.
-2. **Say it is an unofficial copy,** on the home page.
-3. **Put a visible link to the code of your version** on the site itself. If you changed a single file,
+1. **Say it is an unofficial copy,** on the home page, with a link to this repository.
+2. **Put a visible link to the code of your version** on the site itself. If you changed a single file,
    even the stylesheet or a text page, it is your code you must publish, not a link to this repository (AGPL, section 13).
-4. **State in each modified file** that you modified it, and when (AGPL, section 5, a).
-5. **Keep the licence** (`LICENSE`) and the third-party notices.
-6. **Protect yourself in the legal notice.** French law lets an individual stay anonymous
+3. **State in each modified file** that you modified it, and when (AGPL, section 5, a).
+4. **Keep the licence** (`LICENSE`) and the third-party notices.
+5. **Protect yourself in the legal notice.** French law lets an individual stay anonymous
    by giving their details only to the host. Do not publish your home address there.
 
-Visitors trust you not to send anything: if you change `app.js`, `sw.js` or `_headers`, say so clearly.
+**Do not load anything from another site.** People use this tool to protect faces, sometimes at protests.
+A Google Fonts stylesheet, an analytics script or an image hosted elsewhere is enough to send their IP address
+to a third party as soon as they open the page. Keep everything on your own server, as in `vendor/`,
+and do not loosen the security policy in `_headers`. If you change `app.js`, `sw.js` or `_headers`, say so clearly.

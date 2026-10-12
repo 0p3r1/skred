@@ -181,21 +181,19 @@ Avant d'ouvrir une PR, lis [CONTRIBUTING.md](CONTRIBUTING.md).
 Code sous licence [AGPL-3.0](LICENSE). Tu peux le copier, le modifier et le mettre en ligne,
 à condition de publier le code de ta version sous la même licence, y compris si elle n'est servie que sur un site.
 
-Les noms « vesky » et « skred » ne font pas partie de la licence : l'AGPL ne donne aucun droit sur un nom
-(article 7, e). C'est une condition supplémentaire qui accompagne ce code.
-
 ### Héberger ta propre copie
 
 La version officielle est https://vesky.fr. Si tu mets ta propre copie en ligne :
 
-1. **Donne-lui un autre nom.** Ni « vesky » ni « skred » dans le nom, le titre des pages, le logo ou l'adresse.
-   Tu peux écrire « basé sur vesky » avec un lien vers ce dépôt.
-2. **Dis que c'est une copie non officielle,** sur la page d'accueil.
-3. **Mets un lien visible vers le code de ta version,** sur le site lui-même. Si tu as modifié un seul fichier,
+1. **Dis que c'est une copie non officielle,** sur la page d'accueil, avec un lien vers ce dépôt.
+2. **Mets un lien visible vers le code de ta version,** sur le site lui-même. Si tu as modifié un seul fichier,
    même le style ou une page de texte, c'est ton code qu'il faut publier, pas un lien vers ce dépôt (AGPL, article 13).
-4. **Indique dans chaque fichier modifié** que tu l'as modifié, et quand (AGPL, article 5, a).
-5. **Garde la licence** (`LICENSE`) et les mentions des composants tiers.
-6. **Protège-toi dans les mentions légales.** La loi française permet à un particulier de rester anonyme
+3. **Indique dans chaque fichier modifié** que tu l'as modifié, et quand (AGPL, article 5, a).
+4. **Garde la licence** (`LICENSE`) et les mentions des composants tiers.
+5. **Protège-toi dans les mentions légales.** La loi française permet à un particulier de rester anonyme
    en ne donnant ses coordonnées qu'à l'hébergeur. N'y mets pas ton adresse personnelle.
 
-Les visiteurs te font confiance pour ne rien envoyer : si tu modifies `app.js`, `sw.js` ou `_headers`, dis-le clairement.
+**Ne charge rien depuis un autre site.** Les gens qui utilisent cet outil veulent protéger des visages, parfois
+en manifestation. Une police Google Fonts, un script de statistiques ou une image hébergée ailleurs suffit à
+envoyer leur adresse IP à un tiers dès qu'ils ouvrent la page. Garde tout sur ton propre serveur, comme dans `vendor/`,
+et ne desserre pas la politique de sécurité de `_headers`. Si tu modifies `app.js`, `sw.js` ou `_headers`, dis-le clairement.
