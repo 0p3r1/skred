@@ -13,6 +13,10 @@ entrainement/*
 !entrainement/*.sh
 !entrainement/*.patch
 !entrainement/darkface-split.json
+!entrainement/banc-reel/
+entrainement/banc-reel/*
+!entrainement/banc-reel/*.json
+!entrainement/banc-reel/*.md
 
 # Dossier publié, refait par node outils/build.mjs
 dist/
