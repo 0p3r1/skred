@@ -1,0 +1,1 @@
+L'app change de nom : vesky. Elle s'installe à côté de l'ancienne version, que tu peux désinstaller. Mêmes fonctions, toujours aucune permission.
